@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>The midnight train</title>
+</head>
+
+<body>
+    <section class="sky">
+        <div class="moon" onclick="play()"></div>
+        <div class="cloud first-cloud">
+            <div class="circle first-circle"></div>
+            <div class="circle second-circle"></div>
+            <div class="circle third-circle"></div>
+            <div class="circle fourth-circle"></div>
+        </div>
+        <div class="cloud second-cloud">
+            <div class="circle first-circle"></div>
+            <div class="circle second-circle"></div>
+            <div class="circle third-circle"></div>
+            <div class="circle fourth-circle"></div>
+        </div>
+        <div class="cloud third-cloud">
+            <div class="circle first-circle"></div>
+            <div class="circle second-circle"></div>
+            <div class="circle third-circle"></div>
+            <div class="circle fourth-circle"></div>
+        </div>
+        <div class="star first-star"></div>
+        <div class="star second-star"></div>
+        <div class="star third-star"></div>
+        <div class="star forth-star"></div>
+        <div class="star fifth-star"></div>
+        <div class="star sixth-star"></div>
+        <div class="star seventh-star"></div>
+        <div class="star eigth-star"></div>
+        <div class="star nineth-star"></div>
+        <div class="star tenth-star"></div>
+        <div class="star eleventh-star"></div>
+        <div class="star twelwth-star"></div>
+        <div class="star thirteenth-star"></div>
+        <div class="train">
+            <div class="front-wagon">
+                <div class="window front-window"></div>
+                <div class="window right-window-front"></div>
+                <div class="window left-window-front"></div>
+                <div class="door front-door">
+                    <div class="door-add"></div>
+                </div>
+            </div>
+            <div class="waggon first-waggon">
+                <div class="window main-window-fourth"></div>
+                <div class="window main-window-third"></div>
+                <div class="door main-door">
+                    <div class="door-add"></div>
+                </div>
+                <div class="window main-window-second"></div>
+                <div class="window main-window-first"></div>
+            </div>
+            <div class="waggon second-waggon">
+                <div class="window main-window-fourth"></div>
+                <div class="window main-window-third"></div>
+                <div class="door main-door">
+                    <div class="door-add"></div>
+                </div>
+                <div class="window main-window-second"></div>
+                <div class="window main-window-first"></div>
+            </div>
+            <div class="waggon third-waggon">
+                <div class="window main-window-fourth"></div>
+                <div class="window main-window-third"></div>
+                <div class="door main-door">
+                    <div class="door-add"></div>
+                </div>
+                <div class="window main-window-second"></div>
+                <div class="window main-window-first"></div>
+            </div>
+            <div class="waggon fourth-waggon">
+                <div class="window main-window-fourth"></div>
+                <div class="window main-window-third"></div>
+                <div class="door main-door">
+                    <div class="door-add"></div>
+                </div>
+                <div class="window main-window-second"></div>
+                <div class="window main-window-first"></div>
+            </div>
+            <div class="waggon fifth-waggon">
+                <div class="window main-window-fourth"></div>
+                <div class="window main-window-third"></div>
+                <div class="door main-door">
+                    <div class="door-add"></div>
+                </div>
+                <div class="window main-window-second"></div>
+                <div class="window main-window-first"></div>
+            </div>
+            <div class="waggon sixth-waggon">
+                <div class="window main-window-fourth"></div>
+                <div class="window main-window-third"></div>
+                <div class="door main-door">
+                    <div class="door-add"></div>
+                </div>
+                <div class="window main-window-second"></div>
+                <div class="window main-window-first"></div>
+            </div>
+        </div>
+    </section>
+    <section class="ground">
+        <div class="bridge">
+            <div class="semicircle first-semicircle"></div>
+            <div class="semicircle second-semicircle"></div>
+            <div class="semicircle third-semicircle"></div>
+            <div class="semicircle fourth-semicircle"></div>
+            <div class="semicircle fifth-semicircle"></div>
+            <div class="semicircle sixth-semicircle"></div>
+        </div>
+    </section>
+    <script>
+        var train = new Audio('./sounds/train.mp3');
+        function play() {
+            train.play();
+        }
+    </script>
+</body>
+
+</html>
